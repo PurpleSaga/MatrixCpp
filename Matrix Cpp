@@ -1,0 +1,28 @@
+#include<iostream.h>
+#include<conio.h>
+const int =2;
+const int n=2;
+void main()
+{
+int[m][n],i,j;
+clrscr();
+cout<<"Enter "<<m<<"*",<<n<,matrix<<"matrix";
+for(i=0;i<m;i++)
+ {
+ for(j=0;j<n;j++)
+  {
+  cout<<"Enter element at ["<<i+1<<","<<j+1<<]: ;
+  cin>>ai][j];
+  }
+ }
+ cout<<"\nThe matrix is\n";
+ for(i=0;i<m;i++)
+  {
+  for(j=0;j<n'j++)
+   {
+   cout<<a[i][j]<<"\t";
+   }
+   cout<<"endl";
+  }
+  getch();
+}
